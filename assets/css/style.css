@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.plugin_accor {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.plugin_accor ul {
+  border-bottom: #ecebe9 solid 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.plugin_accor ul li {
+  border-left: #ecebe9 solid 1px;
+  border-right: #ecebe9 solid 1px;
+  list-style: none;
+  margin: 0;
+}
+
+.plugin_accor ul li h5 {
+  font-size: 18px;
+  font-weight: bold;
+  background: #f7f6f5;
+  border-left: #ecebe9 solid 0px;
+  border-right: #ecebe9 solid 0px;
+  margin: 0;
+  padding: 12px 15px 12px 50px;
+  line-height: 19px;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+
+.plugin_accor ul li > div {
+  line-height: 24px;
+  padding: 15px 15px 15px 50px;
+}
+
+.plugin_accor ul li > div a {
+  text-decoration:none;
+  box-shadow:none;
+}
+
+.plugin_accor ul li h5.icon:before {
+  font-family: 'FontAwesome';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.plugin_accor ul li h5.plus:before {
+  font-family: 'FontAwesome';
+}
